@@ -1,0 +1,25 @@
+<div class = "register">
+    
+    
+    
+<h1>Registration Form</h1>
+    
+    
+    <form [formGroup]="myForm" (ngSubmit)="onClick(myForm.value)">
+<p><input type="text" placeholder="FirstName" [formControl] = "myForm.controls['firstName']"></p>
+<p>LastName : </p><input type="text" placeholder="LastName" [formControl] = "myForm.controls['lastName']">
+<p>Email : </p><input type="text" placeholder="Email" [formControl] = "myForm.controls['email']">
+<p>Phone : </p><input type="text" placeholder="PhoneNumber" [formControl] = "myForm.controls['phone']">
+   
+        
+<button type="submit">Submit</button>
+</form>
+
+
+    
+    
+   
+    </div>
+    
+
+    

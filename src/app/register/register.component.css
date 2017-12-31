@@ -1,0 +1,39 @@
+
+.login
+{
+color: green;
+    
+}
+
+#firstname{
+    
+    border: 2px solid black;
+    margin: 10px;
+    
+}
+
+#lastname   {
+    
+    border: 2px solid black;
+    margin-left: 13px;
+    
+}
+
+#parentInput2{
+     border: 2px solid black;
+     margin-left: 35px;
+
+}
+
+#phone{
+     border: 2px solid black;
+    margin: 2px;
+      margin-left: 16px;
+}
+
+.submit
+{
+    margin-top: 25px;
+    margin-left:140px;      
+}
+

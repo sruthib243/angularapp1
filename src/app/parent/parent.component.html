@@ -1,0 +1,14 @@
+<div class = "parent">
+<h1>Registration Form</h1>
+<p>First Name : <input type ="text" #parentInput (click) ="0" > <br></p> 
+<p>Last Name : <input type ="text" #parentInput1 (click) ="0" > <br></p> 
+<p>Email: <input type ="email" #parentInput2 (click) ="0" > <br></p> 
+<p>Phone Number: <input type ="text" #parentInput3 (click) ="0" > <br></p>     
+    <button (click) = '["/child"]'> Submit</button>
+    <div class = "child" >
+    
+    <child [parentValue]="parentInput.value" [parentValue1]="parentInput1.value" [parentValue2]="parentInput2.value" [parentValue3]="parentInput3.value" ></child>
+   
+    </div>
+    
+</div>
